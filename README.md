@@ -7,3 +7,5 @@ This example is ported from Dan Thompson's blog, and modified to be run on the I
 
 See [com.ioioapp.ioioeasydriver.MainActivity](https://github.com/aalbino/ioio-easydriver/blob/master/IOIOEasyDriver/src/com/ioioapp/ioioeasydriver/MainActivity.java) for more info.
 
+
+I hooked up a 9V battery as a power source for the Stepper motor, but only because I didn't have any 12V source I could readily use. 9V typically die really fast, so, use a 12V source if you can, and remember to adjust your EasyDriver to only provide the right amount of power to your stepper motor using the on-board potentiometer.
